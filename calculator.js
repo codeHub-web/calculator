@@ -1,6 +1,8 @@
 const outPutScreen = document.getElementById('screen');
 
 
+
+
 const showNum = (x) =>{
   if(outPutScreen.value.includes(x)){
     if(x == '+' || x == '-' || x == '/' || x == '*'){
@@ -11,6 +13,17 @@ const showNum = (x) =>{
 }
 
 
+const add = (x) =>{
+
+}
+
+const subtract = () =>{
+
+}
+
+const multiply = () =>{
+
+}
 const backSpace = () =>{
    let expression = outPutScreen.value;
    let numArray;
@@ -52,7 +65,6 @@ const clearDisplay = () =>{
     outPutScreen.value = '';
 
 }
-
 
 
 
