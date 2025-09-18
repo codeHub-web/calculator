@@ -13,7 +13,11 @@ const showNum = (x) =>{
 }
 
 
-const add = (x) =>{
+const add = () =>{
+
+}
+
+const divide = () =>{
 
 }
 
